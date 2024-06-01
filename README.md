@@ -1,31 +1,35 @@
-# Pedestrian Detection Using YOLO with Improved Attention Module ([Open Access paper link](https://ieeexplore.ieee.org/document/10473662))
+# Pedestrian Detection Using YOLO with Improved Attention Module (Status: Sumbmission)
 
-![avatar](figures/russia_5.png)
+![avatar](Image/VietNam_4.jpg)
 
 ## Introduction
 
-This paper presents an improved Yolov5 's framework for pedestrian detection. We propose two new attention modules for Yolov5 architecture to highlight significant information. First, the modified Efficient Channel Attention (M-ECA) was applied in the backbone of Yolo network to collect the useful features. Second, the modified Global Attention Mechanism (M-GAM) was inserted in the head of Yolo network to enhance feature representation
+This paper presents an improved Yolov8 's framework for PPE detection. We propose I-GAM attention modules incorporated with Yolov8 architecture to highlight significant information.  Additonally, the modified Improved Global Attention Mechanism (I-GAM) was inserted in the head of Yolo network to enhance feature representation
 
-## Proposed Yolov5 's Architecture
+## Proposed Yolov8 's Architecture
 
-![avatar](figures/arhitecture.png)
+![avatar](Image/IGAM_YOLOV8.png)
 
-## PenFudan  Dataset
+## Proposed I-GAM Architecture with fine-tunning
 
-In our experiment, we used dataset **Penn-Fudan**, which included 170 images with 345 labeled pedestrians
+![avatar](Image/Original_GAM_hswish.png)
+
+## Color Helmet and Vest (CHV)  Dataset
+
+In our experiment, we used dataset **Color Helmet and Vest (CHV)**, which included 170 images with 345 labeled pedestrians
 
 
 
-The dataset is open for free use, raw data download at (https://www.cis.upenn.edu/~jshi/ped_html/) or data which already processed (https://universe.roboflow.com/deeplearningresearch/pedestrian-detection-ghbtz ). 
+The dataset is open for free use, raw data download at (https://github.com/ZijianWang-ZW/PPE_detection) or data which already processed (https://universe.roboflow.com/hienlongairesearch/chv_dataset_train_officially ). 
 
 
 
 
 ## Results
 
-- **YOLO v5s owns the best mAP, 87.4%.**
+- **YOLO v8 outperform when compare with others method 's research.**
 
-<center><img src="figures/result.png"/> 
+<center><img src="Image/Result.png"/> 
 
 <div align=center>Figure: Comparision Results.</div>
 
@@ -37,17 +41,10 @@ The dataset is open for free use, raw data download at (https://www.cis.upenn.ed
 `
 @INPROCEEDINGS{10473662,
   author={Vinh, Truong Quang and Long, Pham Hien},
-  booktitle={2023 International Conference on Advanced Computing and Analytics (ACOMPA)}, 
-  title={Pedestrian Detection Using YOLO with Improved Attention Module}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={93-98},
-  keywords={YOLO;Analytical models;Pedestrians;Computational modeling;Graphics processing units;Computer architecture;Cameras;Pedestrian Detection;Yolov5;Penn-Fudan;GAM;ECA},
-  doi={10.1109/ACOMPA61072.2023.00024}}
+
 `
 
 Or
 	
-`T. Q. Vinh and P. H. Long, "Pedestrian Detection Using YOLO with Improved Attention Module," 2023 International Conference on Advanced Computing and Analytics (ACOMPA), Da Nang City, Vietnam, 2023, pp. 93-98, doi: 10.1109/ACOMPA61072.2023.00024. keywords: {YOLO;Analytical models;Pedestrians;Computational modeling;Graphics processing units;Computer architecture;Cameras;Pedestrian Detection;Yolov5;Penn-Fudan;GAM;ECA}`
+`T. Q. Vinh and P. H. Long, `
 
