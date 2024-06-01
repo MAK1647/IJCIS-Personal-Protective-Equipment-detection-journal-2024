@@ -10,7 +10,7 @@ This paper presents an improved Yolov8 's framework for PPE detection. We propos
 
 ![avatar](Image/IGAM_YOLOV8.png)
 
-## Proposed I-GAM Architecture with fine-tunning
+## Proposed I-GAM Architecture with fine-tunning AND choose H-swish activation function
 
 ![avatar](Image/Original_GAM_hswish.png)
 
