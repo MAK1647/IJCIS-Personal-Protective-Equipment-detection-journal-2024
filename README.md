@@ -1,4 +1,4 @@
-# Pedestrian Detection Using YOLO with Improved Attention Module (Status: Sumbmission)
+# Personal Protective Equipment detection using YOLOv8 with Global Attention Mechanism (Status: Sumbmission)
 
 ![avatar](Image/VietNam_4.jpg)
 
