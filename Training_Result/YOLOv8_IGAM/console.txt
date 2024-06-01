@@ -1,0 +1,14 @@
+/content/Yolov8_v2/ultralytics-8.2.0/ultralytics-8.2.0
+Ultralytics YOLOv8.2.0 🚀 Python-3.10.12 torch-2.2.1+cu121 CUDA:0 (Tesla T4, 15102MiB)
+Model summary (fused): 214 layers, 11669146 parameters, 0 gradients, 30.4 GFLOPs
+val: Scanning /content/gdrive/MyDrive/CHV_Dataset_Y8/CHV_Dataset_Y8/val/labels.cache... 133 images, 0 backgrounds, 0 corrupt: 100% 133/133 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% 5/5 [00:13<00:00,  2.79s/it]
+                   all        133        917      0.924      0.837      0.911      0.572
+                     0        133        387      0.959      0.847       0.91      0.576
+                     1        133        171      0.872       0.76       0.87       0.56
+                     2        133         49      0.946      0.837       0.91      0.559
+                     3        133         48       0.82      0.875      0.906      0.575
+                     4        133         99      0.989      0.898      0.955      0.657
+                     5        133        163      0.956      0.805      0.915      0.506
+Speed: 2.8ms preprocess, 20.7ms inference, 0.0ms loss, 22.9ms postprocess per image
+Results saved to /content/gdrive/MyDrive/TrainYolov8/KetQua_ppe/val2
