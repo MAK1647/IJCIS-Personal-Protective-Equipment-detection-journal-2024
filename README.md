@@ -1,4 +1,4 @@
-# Personal Protective Equipment detection using YOLOv8 with Global Attention Mechanism (Status: Sumbmission)
+# Personal Protective Equipment detection using YOLOv8 with Global Attention Mechanism (Status: Submission)
 
 ![avatar](Image/VietNam_4.jpg)
 
@@ -16,7 +16,7 @@ This paper presents an improved Yolov8 's framework for PPE detection. We propos
 
 ## Color Helmet and Vest (CHV)  Dataset
 
-In our experiment, we used dataset **Color Helmet and Vest (CHV)**, which included 170 images with 345 labeled pedestrians
+In our experiment, we used dataset **Color Helmet and Vest (CHV)**, which contains 1330 images, and 9209 instances in total.
 
 
 
@@ -27,24 +27,20 @@ The dataset is open for free use, raw data download at (https://github.com/Zijia
 
 ## Results
 
-- **YOLO v8 outperform when compare with others method 's research.**
+- **YOLO v8 have higher mAP when compare with others method 's research.**
 
 <center><img src="Image/Result.png"/> 
 
 <div align=center>Figure: Comparision Results.</div>
 
 
+- **System evaluation on Jetson Orin Nano.**
 
+<center><img src="Image/Runtime.png"/> 
 
+<div align=center>Figure: System Evaluation.</div>
 
 ## Citation
-`
-@INPROCEEDINGS{10473662,
-  author={Vinh, Truong Quang and Long, Pham Hien},
-
-`
-
-Or
 	
-`T. Q. Vinh and P. H. Long, `
+`P. H. Long and T. Q. Vinh `
 
